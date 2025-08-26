@@ -2,9 +2,29 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Hola Mundo</title>
+    <title>Gastronomía1</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f0f0f0;
+            margin: 0;
+        }
+        h1 {
+            font-size: 3em;
+            color: #2E8B57;
+            animation: mover 3s infinite alternate ease-in-out;
+        }
+        @keyframes mover {
+            0%   { transform: translateX(0); }
+            50%  { transform: translateX(150px); }
+            100% { transform: translateX(0); }
+        }
+    </style>
 </head>
 <body>
-    <h1>Hola Mundo</h1>
+    <h1>Gastronomía1</h1>
 </body>
 </html>
